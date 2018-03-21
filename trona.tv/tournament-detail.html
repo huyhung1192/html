@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TRONA.VN</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- bootstrap -->
+	<link rel="stylesheet" type="text/css" href="public/css/bootstrap.min.css">
+	<!-- theme -->
+	<link rel="stylesheet" type="text/css" href="public/css/bootstrap-theme.css">
+	<!-- Font awesome-->
+	<link rel="stylesheet" type="text/css" href="public/css/font-awesome.min.css">
+	<!-- common.css -->
+	<link rel="stylesheet" type="text/css" href="public/css/common.css">
+	<!-- style -->
+	<link rel="stylesheet" type="text/css" href="public/css/tournament-detail.css">
+</head>
+<body>
+	<header>
+		<div id="header-top">
+			<div id="logo">
+				<a href="index.html"><img src="public/images/logo.png"></a>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="social"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li class="social"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				<li class="social"><a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
+				<li class="social"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+				<li>
+					<div class="form-group search-bar">
+						<div class="icon-addon addon-lg">
+							<input type="text" placeholder="Nhập tên tỉnh,TP..." class="form-control">
+							<label for="email" class="glyphicon glyphicon-search" rel="tooltip" title="email"></label>
+						</div>
+					</div>
+				</li>
+				<li class="register-login">
+					<button type="button" class="register">Đăng Ký</button>
+				</li>
+				<li class="register-login">
+					<button type="button" class="login">Đăng Nhập</button>
+				</li>
+			</ul>
+			<div class="clearfix"></div>
+		</div>	
+		<div id="header-bot">
+			<div class="header-bot-content">
+				<nav class="navbar nav-menu">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle navbar-toggler dropbtn" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+							<div class="bar1"></div>
+							<div class="bar2"></div>
+							<div class="bar3"></div>
+						</button>
+					</div>
+
+					<div class="collapse navbar-collapse no-padding" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav menu-items mr-auto">
+							<li class="nav-item menu-item"><a href="index.html">TRANG CHỦ</a></li>
+							<li class="nav-item menu-item active"><a href="tournament.html">GIẢI ĐẤU</a></li>		
+							<li class="nav-item menu-item"><a href="new.html">TIN TỨC</a></li>
+							<li class="nav-item menu-item"><a href="#">LIVESTREAM</a></li>
+							<li class="nav-item menu-item"><a href="#">GÓC THƯ GIÃN</a></li>											
+							<li class="menu-item pull-right dropdown">
+								<button class="dropbtn">
+									<div class="bar1"></div>
+									<div class="bar2"></div>
+									<div class="bar3"></div>
+								</button>
+								<ul class="game-menu dropdown-content">
+									<li class="game-menu-item"><a href="#">Dota 2</a></li>
+									<li class="game-menu-item"><a href="#">Age Of Empires</a></li>		
+									<li class="game-menu-item"><a href="#">Liên Quân Mobile</a></li>
+									<li class="game-menu-item"><a href="#">CS:GO</a></li>
+									<li class="game-menu-item"><a href="#">PES</a></li>	
+									<li class="game-menu-item"><a href="#">GameTV Shop</a></li>	
+									<li class="game-menu-item"><a href="contact.html">Liên Hệ</a></li>										
+								</ul>
+							</li> 
+							<div class="clearfix"></div>
+
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<div class="clearfix"></div>
+
+	<div id="main">
+		<div id="main-left" class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+			<div id="tournament" class="no-padding">
+				<div class="no-padding title">
+					<h2 class="title-name">GIẢI ĐẤU</h2>
+				</div>
+				<ul class="title-option">
+					<div class="search-option">
+						<select class="form-control">
+							<option value="">Game</option>
+							<option value="common">Dota 2</option>
+							<option value="common">CS:GO</option>
+							<option value="common">PUBG</option>
+						</select>
+					</div>
+
+					<div class="search-option">
+						<select class="form-control">
+							<option value="">Tỉnh, Thành phố</option>
+							<option value="unique">Hà Nội</option>
+							<option value="strange">Đà Nẵng</option>
+							<option value="strange">Hồ Chí Minh</option>
+						</select>
+					</div>
+					<div class="search search-option">
+						<input class="form-control search-name-text" placeholder="Nhập tên giải" type="text">
+						<i class="fa fa-search search-name"></i>
+					</div>
+				</ul>
+				<ul class="title-type pull-right">
+					<li><a href="#">Sắp diễn ra</a></li>
+					<li><a href="#">Đang diễn ra</a></li>
+					<li><a href="#">Đã diễn ra</a></li>
+				</ul>
+
+				<div class="clearfix"></div>
+				<div class="no-padding content">
+					<div class="banner">
+						<img src="public/images/tournament/banner.jpg">
+					</div>
+
+					<div class="tournament-content">
+						<div class="title">FINAL STANDINGS</div>
+						<div class="col-xs-3">
+							<div class="team">
+								<img class="team-img" src="public/images/team/1.png">
+							</div>
+							<div class="team-info">
+								<div class="place">1</div>
+								<div class="team-info-price">
+									<span class="team-name">PHOEIX</span><br/>
+									<span class="team-price">20.000.000</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-3">
+							<div class="team">
+								<img class="team-img" src="public/images/team/2.png">
+							</div>
+							<div class="team-info">
+								<div class="place">2</div>
+								<div class="team-info-price">
+									<span class="team-name">natus vincere</span><br/>
+									<span class="team-price">10.000.000</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-3">
+							<div class="team">
+								<img class="team-img" src="public/images/team/3.png">
+							</div>
+							<div class="team-info">
+								<div class="place">3</div>
+								<div class="team-info-price">
+									<span class="team-name">fnatic</span><br/>
+									<span class="team-price">6.000.000</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-3">
+							<div class="team">
+								<img class="team-img" src="public/images/team/4.png">
+							</div>
+							<div class="team-info">
+								<div class="place">4</div>
+								<div class="team-info-price">
+									<span class="team-name">virtus pro</span><br/>
+									<span class="team-price">4.000.000</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+
+					<div class="tournament-content">
+						<div class="title">GROUP STAGE</div>
+						<div class="col-sm-6 col-xs-12">
+							<h4 class="group">GROUP A</h4>
+							<div class="team-place">
+								<div class="team-rate col-lg-2 col-md-2 col-sm-2 col-xs-2">1</div>
+								<div class="team-profile col-lg-8 col-md-8 col-sm-8 col-xs-8"><img src="public/images/team/team-1.png">PHOENIX</div>
+								<div class="team-score col-xs-2">2-1</div>
+							</div>
+
+							<div class="team-place">
+								<div class="team-rate col-lg-2 col-md-2 col-sm-2 col-xs-2">2</div>
+								<div class="team-profile col-lg-8 col-md-8 col-sm-8 col-xs-8"><img src="public/images/team/team-2.png">Natusvincere</div>
+								<div class="team-score col-xs-2">2-1</div>
+							</div>
+
+							<div class="team-place">
+								<div class="team-rate col-lg-2 col-md-2 col-sm-2 col-xs-2">3</div>
+								<div class="team-profile col-lg-8 col-md-8 col-sm-8 col-xs-8"><img src="public/images/team/team-3.png">fnatics</div>
+								<div class="team-score col-xs-2">2-1</div>
+							</div>
+
+							<div class="team-place">
+								<div class="team-rate col-lg-2 col-md-2 col-sm-2 col-xs-2">4</div>
+								<div class="team-profile col-lg-8 col-md-8 col-sm-8 col-xs-8"><img src="public/images/team/team-4.png">virtus pro</div>
+								<div class="team-score col-xs-2">2-1</div>
+							</div>
+						</div>
+
+						<div class="col-sm-6 col-xs-12">
+							<h4 class="group">GROUP B</h4>
+							<div class="team-place">
+								<div class="team-rate col-lg-2 col-md-2 col-sm-2 col-xs-2">5</div>
+								<div class="team-profile col-lg-8 col-md-8 col-sm-8 col-xs-8"><img src="public/images/team/team-1.png">PHOENIX</div>
+								<div class="team-score col-xs-2">2-1</div>
+							</div>
+
+							<div class="team-place">
+								<div class="team-rate col-lg-2 col-md-2 col-sm-2 col-xs-2">6</div>
+								<div class="team-profile col-lg-8 col-md-8 col-sm-8 col-xs-8"><img src="public/images/team/team-2.png">Natusvincere</div>
+								<div class="team-score col-xs-2">2-1</div>
+							</div>
+
+							<div class="team-place">
+								<div class="team-rate col-lg-2 col-md-2 col-sm-2 col-xs-2">7</div>
+								<div class="team-profile col-lg-8 col-md-8 col-sm-8 col-xs-8"><img src="public/images/team/team-3.png">fnatics</div>
+								<div class="team-score col-xs-2">2-1</div>
+							</div>
+
+							<div class="team-place">
+								<div class="team-rate col-lg-2 col-md-2 col-sm-2 col-xs-2">8</div>
+								<div class="team-profile col-lg-8 col-md-8 col-sm-8 col-xs-8"><img src="public/images/team/team-4.png">virtus pro</div>
+								<div class="team-score col-xs-2">2-1</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="main-right" class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+			<div id="match" class="no-padding">
+				<div class="no-padding title">
+					<h2 class="title-name">trận đấu</h2>
+					<ul class="title-type pull-right">
+						<li><a href="#">Live</a></li>
+						<li><a href="#">Vừa kết thúc</a></li>
+					</ul>
+				</div>
+				<div class="no-padding">
+					<div class="match-content">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding game">
+							<img src="public/images/icon/icon-dota2.png">
+							<span class="time live">Live</span>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 no-padding team team-1">
+							<span class="team-name">Natus Vincere</span>
+							<img src="public/images/team/team-1.png">
+						</div>
+						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-padding vs">
+							<img src="public/images/icon/icon-vs.png">
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 no-padding team team-2">
+							<img src="public/images/team/team-2.png">
+							<span class="team-name">Fnatic</span>
+						</div>
+						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-padding seemore-match">
+							<img src="public/images/icon/icon-seemore-match.png">
+						</div>
+					</div>
+
+					<div class="match-content">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding game">
+							<img src="public/images/icon/icon-dota2.png">
+							<span class="time live">Live</span>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 no-padding team team-1">
+							<span class="team-name">Natus Vincere</span>
+							<img src="public/images/team/team-3.png">
+						</div>
+						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-padding vs">
+							<img src="public/images/icon/icon-vs.png">
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 no-padding team team-2">
+							<img src="public/images/team/team-4.png">
+							<span class="team-name">Fnatic</span>
+						</div>
+						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-padding seemore-match">
+							<img src="public/images/icon/icon-seemore-match.png">
+						</div>
+					</div>
+
+					<div class="match-content">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding game">
+							<img src="public/images/icon/icon-csgo.png">
+							<span class="time time-ago">1 giờ trước</span>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 no-padding team team-1">
+							<span class="team-name">Natus Vincere</span>
+							<img src="public/images/team/team-5.png">
+						</div>
+						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-padding vs">
+							<img src="public/images/icon/icon-vs.png">
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 no-padding team team-2">
+							<img src="public/images/team/team-6.png">
+							<span class="team-name">Fnatic</span>
+						</div>
+						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-padding seemore-match">
+							<img src="public/images/icon/icon-seemore-match.png">
+						</div>
+					</div>
+
+					<div class="match-content">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding game">
+							<img src="public/images/icon/icon-csgo.png">
+							<span class="time time-ago">2 giờ trước</span>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 no-padding team team-1">
+							<span class="team-name">Natus Vincere</span>
+							<img src="public/images/team/team-6.png">
+						</div>
+						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-padding vs">
+							<img src="public/images/icon/icon-vs.png">
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 no-padding team team-2">
+							<img src="public/images/team/team-5.png">
+							<span class="team-name">Fnatic</span>
+						</div>
+						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-padding seemore-match">
+							<img src="public/images/icon/icon-seemore-match.png">
+						</div>
+					</div>
+
+					<div class="match-content">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding game">
+							<img src="public/images/icon/icon-lol.png">
+							<span class="time time-ago">3 giờ trước</span>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 no-padding team team-1">
+							<span class="team-name">Natus Vincere</span>
+							<img src="public/images/team/team-1.png">
+						</div>
+						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-padding vs">
+							<img src="public/images/icon/icon-vs.png">
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 no-padding team team-2">
+							<img src="public/images/team/team-2.png">
+							<span class="team-name">Fnatic</span>
+						</div>
+						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-padding seemore-match">
+							<img src="public/images/icon/icon-seemore-match.png">
+						</div>
+					</div>
+
+					<div class="match-content">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding game">
+							<img src="public/images/icon/icon-dota2.png">
+							<span class="time time-date">22/11/2017</span>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 no-padding team team-1">
+							<span class="team-name">Natus Vincere</span>
+							<img src="public/images/team/team-4.png">
+						</div>
+						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-padding vs">
+							<img src="public/images/icon/icon-vs.png">
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 no-padding team team-2">
+							<img src="public/images/team/team-2.png">
+							<span class="team-name">Fnatic</span>
+						</div>
+						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-padding seemore-match">
+							<img src="public/images/icon/icon-seemore-match.png">
+						</div>
+					</div>
+
+					<div class="match-content">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding game">
+							<img src="public/images/icon/icon-dota2.png">
+							<span class="time time-date">22/11/2017</span>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 no-padding team team-1">
+							<span class="team-name">Natus Vincere</span>
+							<img src="public/images/team/team-3.png">
+						</div>
+						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-padding vs">
+							<img src="public/images/icon/icon-vs.png">
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 no-padding team team-2">
+							<img src="public/images/team/team-5.png">
+							<span class="team-name">Fnatic</span>
+						</div>
+						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-padding seemore-match">
+							<img src="public/images/icon/icon-seemore-match.png">
+						</div>
+					</div>
+
+					<div class="match-content">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding game">
+							<img src="public/images/icon/icon-lol.png">
+							<span class="time time-date">22/11/2017</span>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 no-padding team team-1">
+							<span class="team-name">Natus Vincere</span>
+							<img src="public/images/team/team-2.png">
+						</div>
+						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-padding vs">
+							<img src="public/images/icon/icon-vs.png">
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 no-padding team team-2">
+							<img src="public/images/team/team-6.png">
+							<span class="team-name">Fnatic</span>
+						</div>
+						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-padding seemore-match">
+							<img src="public/images/icon/icon-seemore-match.png">
+						</div>
+					</div>
+
+					<div class="match-content">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding game">
+							<img src="public/images/icon/icon-csgo.png">
+							<span class="time time-date">22/11/2017</span>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 no-padding team team-1">
+							<span class="team-name">Natus Vincere</span>
+							<img src="public/images/team/team-1.png">
+						</div>
+						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-padding vs">
+							<img src="public/images/icon/icon-vs.png">
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 no-padding team team-2">
+							<img src="public/images/team/team-6.png">
+							<span class="team-name">Fnatic</span>
+						</div>
+						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-padding seemore-match">
+							<img src="public/images/icon/icon-seemore-match.png">
+						</div>
+					</div>
+
+					<div class="match-content">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 no-padding game">
+							<img src="public/images/icon/icon-csgo.png">
+							<span class="time time-date">21/11/2017</span>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 no-padding team team-1">
+							<span class="team-name">Natus Vincere</span>
+							<img src="public/images/team/team-1.png">
+						</div>
+						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-padding vs">
+							<img src="public/images/icon/icon-vs.png">
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 no-padding team team-2">
+							<img src="public/images/team/team-2.png">
+							<span class="team-name">Fnatic</span>
+						</div>
+						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 no-padding seemore-match">
+							<img src="public/images/icon/icon-seemore-match.png">
+						</div>
+						<div class="seemore pull-right">
+							<img src="public/images/icon/icon-seemore.png"><span>Xem thêm</span>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="clearfix"></div>
+
+			<div id="upcoming" class="no-padding">
+				<div class="no-padding title">
+					<h2 class="title-name">sắp diễn ra</h2>
+				</div>
+				<div class="no-padding content">
+					<div class="upcoming-info">
+						<h4 class="fisrt-team">LIQUID</h4>
+						<h4 class="vs">VS</h4>
+						<h4 class="second-team">EG BO2 DAC 2017</h4>
+						<div class="upcoming-time">
+							8h00, 13-10-2017
+						</div>
+					</div>
+					<div class="upcoming-video">
+						<div class="videos-content-img">
+							<img src="public/images/news/videos_1.jpg">
+						</div>
+					</div>
+
+					<div class="clearfix"></div>
+
+					<div class="seemore pull-right">
+						<img src="public/images/icon/icon-seemore.png"><span>Xem thêm</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	<footer>
+		<div class="logo col-xs-12">
+			<a href="#"><img src="public/images/logo-footer.png"></a>
+		</div>
+		<div class="info col-xs-12">
+			<div class="col-lg-3 col-md-2 col-sm-2 col-xs-3"></div>
+			<div class="col-lg-6 col-md-8 col-sm-8 col-xs-6 info-detail">
+				<div class="col-xs-6 copy-right">
+					Copyright © 2016 doto.tivi . All rights reserved.
+				</div>
+				<div class="col-xs-6 social">
+					<span>Social Media</span>
+					<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+
+<!-- jquery -->
+<script type="text/javascript" src="public/js/jquery-3.1.1.min.js"></script>
+<!-- js bootstrap -->
+<script type="text/javascript" src = "public/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	$(document).on('mouseover','.tournament-content-img', function(){
+		$(this).find('.tournament-hover').show();
+	});
+
+	$(document).on('mouseout','.tournament-content-img', function(){
+		$(this).find('.tournament-hover').hide();
+	});
+</script>
+</html>
