@@ -1,0 +1,175 @@
+
+/*Main bot right================================================================================================================*/
+#main-right-bot{
+	background: url(../images/background/bg-random.jpg) no-repeat;
+	background-size: cover;
+}
+
+/*case roulette================================================================================================================*/
+#case-roulette{
+	padding: 0px 0px 30px;
+}
+
+#case-roulette .title{
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #ffffff;
+	padding: 20px 30px;
+	background-color: #303030;
+	margin-bottom: 45px;
+}
+#case-roulette .title img{
+	margin-top: -5px;
+	padding-right: 5px;
+}
+#case-roulette .content{}
+/*#case-roulette .content .title{
+	background: url(../images/background/bg-name.png) no-repeat 50% 50%;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 5px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}*/
+
+#case-roulette .content .case-items{
+	background: url(../images/background/bg-case-open.png) no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	/*height: 202px;*/
+	margin-bottom: 20px;
+	padding: 20px 0px;
+}
+
+#case-roulette .content .case-items .item-case{
+	float: left;
+	width: 19%;
+	margin: 0.5%;
+	cursor: pointer;
+}
+
+#case-roulette .content .case-items .item-case .case-img{
+	background: url(../images/case-bg.png) no-repeat;
+	background-position: center;
+	background-position-y : 23px;
+	background-size: 100%;
+}
+
+#case-roulette .content .case-items .item-case img{
+	width: 100%;
+}
+
+#case-roulette .content .case-items .case-action{}
+
+#case-roulette .case-action .open-case{
+	background: url(../images/background/button-open.jpg) no-repeat 50% 50%;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 5px;
+	color: #c31f25;
+	border: none;
+	width: 145px;
+	outline: none;
+}
+
+#case-roulette .case-action .buy-case{
+	background: url(../images/background/button-buy.jpg) no-repeat 50% 50%;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 5px;
+	color: #c31f25;
+	border: 1px solid #3e3e3e;
+	width: 145px;
+	outline: none;
+}
+
+#case-contains{
+	padding: 15px 20px;
+}
+#case-contains .title{
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: white;
+	padding: 0px 10px;
+}
+
+#case-contains .content{
+	padding: 15px 0px;
+}
+
+#case-contains .content .item-case{
+	width: 9%;
+	margin: 0.5%;
+	cursor: pointer;
+	float: left;
+	border: 1px solid #3e3e3e;
+}
+
+#case-contains .content .rare-item{
+	border: 1px solid #fe0000;
+}
+
+#case-contains .content .item-case img{
+	width: 100%;
+}
+
+#case-contains .content .normal-item{
+	background: url(../images/background/bg-item-normal.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+#case-contains .content .rare-item{
+	background: url(../images/background/bg-item-rare.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+#case-contains .content .item-case .case-info{
+	/*position: absolute;*/
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	width: 100%;
+	/*font-size: 14px;*/
+	background: rgba(0,0,0,0.75);
+	text-transform: capitalize;
+}
+
+#case-contains .content .item-case .case-info h4{
+	margin: 0;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 5px 0px;
+}
+
+
+/*Footer*/
+#footer{
+	margin:0;
+}
+
+@media screen and (max-width: 1400px) {
+	#case-contains .content .item-case{
+		width: 11.5%;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	#case-contains .content .item-case{
+		width: 19%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#case-contains .content .item-case{
+		width: 24%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#case-contains .content .item-case{
+		width: 32.2%;
+	}
+}

@@ -1,0 +1,85 @@
+
+/*Main bot right================================================================================================================*/
+#main-right-bot{
+	background: url(../images/background/bg-random.jpg) no-repeat;
+	background-size: cover;
+	padding: 30px;
+	-webkit-box-shadow: -7px 0px 7px -3px #000;
+	-moz-box-shadow: -7px 0px 7px -3px #000;
+	box-shadow: -7px 0px 7px -3px #000;
+}
+
+#setting{
+	padding-right: 15px;
+	margin-bottom: 30px;
+}
+
+#setting ul.nav-tabs{
+	font-size: 18px;
+	border: none;
+	background: #000;
+}
+
+#setting ul.nav-tabs>li a{
+	border: none;
+}
+
+#setting ul.nav-tabs>li.active a{
+	color: #c31f25;
+	border-bottom: 2px solid #000;
+	border-radius: 0;
+	background: #000;
+}
+
+#setting ul.nav-tabs>li a:visited{
+
+}
+
+#privacy-security{
+	background: #000;
+}
+
+#privacy-security .setting{
+	padding: 15px 0px;
+}
+
+#privacy-security .setting .tittle{
+	font-weight: bold;
+	font-size: 16px;
+	color: #ffffff;
+	/*padding: 15px 0px;*/
+}
+
+#privacy-security .setting .setting-steam{
+	background-position: 0 -85px;
+}
+
+#privacy-security .setting .icon-setting {
+	background-image: url(../images/icon/icon-myaccount.png);
+	background-repeat: no-repeat;
+	height: 35px;
+}
+#privacy-security .setting .content{
+	color: #ffffff;
+	font-size: 14px;
+	/*padding: 15px 0px;*/
+}
+
+#privacy-security .setting .btn-setting{
+
+}
+
+#privacy-security .setting .btn-setting button{
+	color: white;
+	background: #c31f25;
+	padding: 3px 20px;
+}
+
+@media screen and (max-width: 480px) {
+	.hidden-480{
+		display: none;
+	}
+	#privacy-security .setting .tittle{
+		width: 50%;
+	}
+}

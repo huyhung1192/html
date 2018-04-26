@@ -1,0 +1,177 @@
+
+/*Main bot right================================================================================================================*/
+#main-right-bot{
+/*	background: url(../images/background/bg-random.jpg) no-repeat;
+background-size: cover;*/
+background-color: #151515;
+padding: 30px;
+-webkit-box-shadow: -7px 0px 7px -3px #000;
+-moz-box-shadow: -7px 0px 7px -3px #000;
+box-shadow: -7px 0px 7px -3px #000;
+}
+
+#market{
+	padding-right: 15px;
+}
+
+#main-right-bot .market-game-content{
+	padding-right: 15px;
+}
+
+ul.market-game-menu{
+	border: none;
+	padding:1px 0px;
+	background: #303030;
+	border-bottom: 1px solid #101111;
+}
+
+ul.market-game-menu li{
+	cursor: pointer;
+}
+ul.market-game-menu li a{
+	color: #737373;
+	font-family: Arial;
+	font-size: 14px;
+	cursor: pointer;
+	border-bottom: 1px solid #303030 ;
+	background-color: #303030 !important;
+}
+ul.market-game-menu li a:hover{
+	border: 1px solid #303030;
+	/*border-bottom: 1px solid #303030 !important;*/
+}
+ul.market-game-menu li.active a{
+	border: none !important;
+	border-bottom: 2px solid #a2181d !important;
+}
+ul.market-game-menu li a span{
+	color: #fff;
+}
+ul.market-game-menu li.active a span{
+	color: #d8d8d8;
+}
+
+
+/*pubg-market*/
+#pubg-market{
+	padding: 10px;
+	background: #303030;
+}
+
+#pubg-market .content-items{
+	padding: 0px 0px;
+}
+
+#pubg-market .content-items .market-item{
+	width: 15.66%;
+	margin: 1% 0.5%;
+	cursor: pointer;
+	float: left;
+	background-color: #303030;
+	position: relative;
+	background: -webkit-linear-gradient(#444343, #020202); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#444343, #020202); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#444343, #020202); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#444343, #020202); /* Standard syntax (must be last) */
+	padding: 5px;
+}
+
+#pubg-market .content-items .market-item img{
+	width: 100%;
+	border: 1px solid;
+}
+
+#pubg-market .market-item .market-item-info{
+	color: #c31f25;
+	/*font-size: 13px;*/
+	padding: 15px 0px;
+}
+
+#pubg-market .market-item .market-item-info p{
+	margin: 0;
+}
+
+#pubg-market .market-item .market-item-info span{
+	color: #fefefe;
+}
+
+#pubg-market .market-item .market-item-buy{
+	padding: 0px 0px 15px;
+	text-align: center;
+}
+#pubg-market .market-item .market-item-buy button{
+	padding: 5px 15px;
+	color: #ffffff;
+	border: 1px solid #c31f25;
+	background-color: #212121;
+	font-size: 14px;
+}
+
+#pubg-market .market-item .market-item-buy.active button{
+	background-color: #c31f25;
+}
+
+#pubg-market ul.pagination{
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+#pubg-market ul.pagination li{
+	padding: 0px 5px;
+}
+
+#pubg-market ul.pagination li a{
+	color: #e3e3e3;
+	font-size: 16px;
+	font-family: Arial;
+	cursor: pointer;
+	background: none;
+	border: none;
+	padding: 5px 13px;
+}
+
+#pubg-market ul.pagination li.active a{
+	background: #c31f25;
+}
+
+#pubg-market ul.pagination li i{
+	color: #c31f25;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 1450px) {
+	#pubg-market .content-items .market-item{
+		width: 15.65%;
+	}
+}
+
+@media screen and (max-width: 1150px) {
+	#pubg-market .content-items .market-item{
+		width: 19%;
+	}
+}
+
+@media screen and (max-width: 1050px) {
+	#pubg-market .content-items .market-item{
+		width: 24%;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	#pubg-market .content-items .market-item{
+		width: 19%;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	#pubg-market .content-items .market-item{
+		width: 24%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#pubg-market .content-items .market-item{
+		width: 32.2%;
+	}
+}
